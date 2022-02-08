@@ -9,6 +9,6 @@ webt1340 Projects
     <li><a href="project5/Rack4x9.ait">Project 5 Rack Template</a></li>
     <li><a href="project5/project5port.ai">Project 5 Portfolio</a></li>
     <li><a href="project5/aos-brochure_Folder/aos-brochure Report.txt">Project 5 Brochure Text</a></li>
-    <li><a href="project5/aos-brochure_Folder/Fonts">Project 5 Brochure Text</a></li>
-    <li><a href="project5/aos-brochure_Folder/Links">Project 5 Brochure Text</a></li>
+    <li><a href="project5/aos-brochure_Folder/Fonts">Project 5 Brochure Fonts</a></li>
+    <li><a href="project5/aos-brochure_Folder/Links">Project 5 Brochure Links</a></li>
   </ul>
