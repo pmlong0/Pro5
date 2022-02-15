@@ -16,3 +16,15 @@ webt1340 Projects
     <li><a href="project5/aos-brochure_Folder/Links/cac-logo.ai">Project 5 Brochure Links CAC Logo</a></li>
     <li><a href="project5/aos-brochure_Folder/Links/einstein-light.jpg">Project 5 Brochure Links Einstein JPG</a></li>
   </ul>
+
+<h2>Project 7</h2>
+<ul>
+<h2>Project 5</h2>
+    <li><a href="project7/reasons-graph.ai">Project 7 Reasons Graph</a></li>
+    <li><a href="project7/price-graph.ai">Project 7 Price Graph </a></li>
+    <li><a href="project7/favorite-graph.ai">Project 7 Favorites Graph</a></li>
+    <li><a href="project7/coffee-production.ai">Project 7 Coffee Production</a></li>
+    <li><a href="project7/production-graph.ai">Project 7 Portfolio Production Graph</a></li>
+    <li><a href="project7/renewable-graph.ai">Project 7 Portfolio Renewable Graph</a></li>
+    <li><a href="project7/consumption-graph.ai">Project 7 Portfolio Consumption Graph</a></li>
+  </ul>
