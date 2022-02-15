@@ -1,7 +1,6 @@
 Webt1340
 
-webt1340 Projects
-<h1> Projects</h1>
+
 <ul>
 <h2>Project 5</h2>
     <li><a href="project5/aos-brochure.ai">Project 5 Brochure</a></li>
