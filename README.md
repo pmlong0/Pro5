@@ -15,7 +15,6 @@ Webt1340
     <li><a href="project5/aos-brochure_Folder/Links/cac-logo.ai">Project 5 Brochure Links CAC Logo</a></li>
     <li><a href="project5/aos-brochure_Folder/Links/einstein-light.jpg">Project 5 Brochure Links Einstein JPG</a></li>
   </ul>
-
 <h2>Project 7</h2>
 <ul>
     <li><a href="project7/reasons-graph.ai">Project 7 Reasons Graph</a></li>
