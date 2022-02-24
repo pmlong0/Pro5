@@ -1,0 +1,243 @@
+/* Global Style */
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+h2 {
+position: absolute;
+left: 30px;
+font-family: 'Montserrat', sans-serif;
+
+}
+
+h3 {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+h4 {
+    position: absolute;
+left: 30px;
+font-family: 'Montserrat', sans-serif;
+
+}
+
+ footer {
+    color: black;
+    text-align: center;
+}
+p{
+    color: black;
+
+}
+h1 {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+#container {
+}
+
+/* End Global Styles */
+
+/* Mobile Styles */
+
+header {
+    background-image: url(../images/slash.png);
+    background-position: right -40px;
+    background-repeat: no-repeat;
+    background-size:180px;
+    background-color: white;
+    margin-top: -10px;
+    height: 280px;
+    display: black
+;
+}
+
+.dropbtn {
+    background-color: #3B7390;
+    color: #F4D27F;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #F4D27F;
+    color: #3B7390;
+  }
+
+header h1{
+    position: absolute;
+    left: 190px;
+    top:0px;
+    font-size: 1.2em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+header img {
+    display: block;
+    width: 35%;
+    padding-top: 10px;
+    padding-bottom: 0;
+    margin-right: 60px;
+    margin-left: auto;
+    margin-bottom: 40px;
+    display: block;
+    filter: drop-shadow(17px -13px 0px  black);
+
+}
+
+header h2 {
+position: relative;
+bottom: 150px;
+left: 2px;
+text-align: left;
+font-size: 1.1em;
+   
+
+}
+header h3{
+    position: relative;
+    bottom: 170px;
+    left: 2px;
+    text-align: left;
+    font-size: 1.8em;
+}
+
+header h4{
+    position: relative;
+    bottom: 190px;
+    left: 2px;
+    text-align: left;
+    font-size: .8em;
+}
+
+
+#rectangle {
+    width: 100%;
+    height:180px;
+    margin-top: -22px;
+    margin-left: auto;
+    margin-right: auto;
+    background:#F4D27F;
+
+    
+}
+#colabimg {
+    width: 70%;
+    display: block;
+    filter: drop-shadow(17px -20px 0px  black);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -40px;
+
+}
+
+nav {
+    background-color: #3B7390;
+    text-align: center;
+    padding-bottom: 300px;
+}
+
+nav h1 {
+    text-align: center;
+    font-size: 3.3em;
+    top: -100px;
+}
+
+nav h2 {
+   text-align: center;
+    font-size: 2.3em;
+}
+
+
+
+
+
+main {
+  
+    padding: 10px;
+    
+}
+
+#webdesign {
+    background-color: #f1f1f1;
+}
+
+
+#image_gallery img {
+    width: 70%;
+   padding: 20px;
+   margin-bottom: ;
+}
+
+
+
+
+footer {
+    padding: 40px,0 ;
+    border-top: 2px solid;
+    background-color: #E9EBFA;
+}
+footer img {
+    width: 30%;
+    filter: drop-shadow(-17px 3px 0px  black);
+    margin-top: 35px;
+
+}
+footer h1{
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 2.3;
+}
+
+footer h2{
+
+    text-align: center;
+    font-size: 1.5em;
+
+}
+#icon {
+    width: 40%;
+    display: block;
+}
+
+footer h1{
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+
+/* End Mobile Styles */
