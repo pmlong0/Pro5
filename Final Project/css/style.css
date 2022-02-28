@@ -34,6 +34,7 @@ h1 {
     
 }
 
+
 #container {
 }
 
@@ -202,11 +203,17 @@ main h2{
     background-color: #f1f1f1;
 }
 
+#image_gallery {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
 
 #image_gallery img {
     width: 70%;
    padding: 20px;
-   margin-bottom: ;
+
 }
 
 
@@ -247,3 +254,124 @@ article h2{
 
 
 /* End Mobile Styles */
+
+/* Tablet Styles */
+    
+@media (min-width:768px) {
+
+    header {
+        height: 400px;
+        background-size: 260px;
+    }
+    header img {
+        float: none;
+        width: 30%;
+        margin-top: 10px;    
+    }
+    header h1{
+        font-size: 1.8em ;
+        text-align: right;
+    }
+    header h2{
+        font-size: 3em;
+        margin-top: -70px;
+    }
+    header h3{
+        font-size: 4em;
+        margin-top: -20px;
+    }
+    header h4{
+        font-size: 1.7em;
+        margin-top: -40px;
+
+    }
+    #rectangle {
+        height: 682px;
+        width: 300px;
+        position: absolute;
+        top: 34.25%;
+    }
+    nav {
+        height: 600px;
+    }
+
+    #colabimg {
+        width: 40%;
+        margin-left: 40px;
+        position: relative;
+        top: 20%;
+      
+    }
+     nav h1 {
+
+        
+         margin-left: 400px;
+         margin-top: -190px;
+         font-size: 4em;
+     }
+     nav h2{
+        margin-left: 500px;
+         font-size: 3.7em;
+         margin-left: 400px;
+     }
+
+     main h1 {
+            font-size: 4em;
+            text-align: left;
+     }
+     main h2 {
+         font-size: 2.4em;
+         text-align: left;
+     }
+     .responsive {
+        width: auto;
+        margin: 6px 0;
+      }
+     article {
+         height: 1000px;
+     }
+     article img{
+         width: 40%;
+     }
+      article h1{
+          font-size: 3.5em;
+          top: 50px;
+      }
+}
+
+/* End Tablet Styles*/
+
+/* Desktop Styles*/
+
+header {
+    display: block;
+    width: 70%;
+}
+
+header h1 {
+    right: 600px;
+    top: -10px;
+}
+
+header h2 h3 h4 {
+    position: fixed;    
+}
+
+header img {
+    display: block;
+    width: 25%;
+    
+}
+#rectangle {
+    margin-top: 42px;
+}
+#colabimg {
+    width: 30%;
+}
+
+article img{
+    width: 20%;
+   
+}
+
+/* End Desktop Styles*/
