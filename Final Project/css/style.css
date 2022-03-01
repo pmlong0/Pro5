@@ -1,5 +1,6 @@
 /* Global Style */
 img {
+
     display: block;
     margin: 0 auto;
     width: 100%;
@@ -134,7 +135,7 @@ header h2 {
   
     width: 170%;
     height: auto;
-    mar
+    float: left;
     display: block;
     filter: drop-shadow(17px -13px 0px  black);
 
@@ -258,8 +259,8 @@ article h2{
 @media (min-width:768px) {
 
     header {
-        height: 400px;
-        background-size: 260px;
+       clear: both;
+     
     }
     #image {
         float: none;
