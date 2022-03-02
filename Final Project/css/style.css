@@ -302,11 +302,14 @@ article h2{
          height: 1000px;
      }
      article img{
-         width: 40%;
+         width: 30%;
      }
       article h1{
           font-size: 3.5em;
           top: 50px;
+      }
+      footer {
+          text-align: center;
       }
 }
 
@@ -315,7 +318,7 @@ article h2{
 /* Desktop Styles*/
 @media (min-width: 1024px) {
     header img {
-        width: 16%;
+        width: 18%;
         margin-right: 300px;
         margin-top: -5px;
     }
@@ -330,7 +333,12 @@ article h2{
     #colabimg {
         width: 35%;
     }
-   
+   article img{ 
+       width: 20%;
+   }
+   footer {
+       text-align: center;
+   }
 }
 
 /* End Desktop Styles*/
