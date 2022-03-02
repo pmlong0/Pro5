@@ -5,20 +5,19 @@ img {
     margin: 0 auto;
     width: 100%;
 }
-h2 {
+
+
+h1, h2, h3, {
 
 font-family: 'Montserrat', sans-serif;
 color: black;
+text-align: center;
 
 }
 
-h3 {
-    color: black;
-    font-family: 'Montserrat', sans-serif;
-}
 h4 {
-
-font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
 
 }
 
@@ -45,16 +44,30 @@ h1 {
 /* Mobile Styles */
 
 header {
-    background-image: url(../images/.png);
-    background-position: right -60px;
+    
+   
     background-repeat: no-repeat;
-    background-size:140px;
+    background-size:160px;
     background-color: white;
-    margin-top: -10px;
-    height: 270px;
-    display: black
-;
+   
+    height: 290px;
+    display: black;
+    
+    
 }
+
+header img {
+  
+    width: 36%;
+    height: auto;
+    float: right;
+    display: block;
+    margin-top: 20px;
+    padding-right: 55px;
+    filter: drop-shadow(17px -13px 0px  black);
+
+}
+
 
 .dropbtn {
     background-color: #3B7390;
@@ -109,59 +122,32 @@ header h1{
 
 header h2 {
 
-    margin-top: 350px;
+    margin-top: 25px;
     text-align: left;
     font-size: 4vw;
        
     
     }
     header h3{
-        position: relative;
-      margin-top: -10px;
-        left: 2px;
-        text-align: left;
+    
         font-size: 7vw;
     }
     
     header h4{
-        position: relative;
-        margin-top: -20px;
+       
+       
         text-align: left;
         font-size: 3vw;
     }
 
-
-#image {
-  
-    width: 170%;
-    height: auto;
-    float: left;
-    display: block;
-    filter: drop-shadow(17px -13px 0px  black);
-
-}
-
-
-
-
-.rectangle {
-    width: 100%;
-    height:150px;
-    margin-top: -22px;
-    margin-left: auto;
-    margin-right: auto;
-    background:#F4D27F;
-
-    
-}
 #colabimg {
-    width: 70%;
+    width: 40%;
     display: block;
     -webkit-box-shadow: 19px -12px 0px 0px rgba(0,0,0,0.63); 
     box-shadow: 19px -12px 0px 0px rgba(0,0,0,0.63);
     margin-left: auto;
     margin-right: auto;
-    margin-top: -40px;
+    margin-top: -70px;
 
 }
 
@@ -169,6 +155,7 @@ nav {
     background-color: #3B7390;
     text-align: center;
     padding-bottom: 80px;
+    margin-top: 90px;
 }
 
 nav h1 {
@@ -258,23 +245,23 @@ article h2{
     
 @media (min-width:768px) {
 
-    header {
-       clear: both;
+    header img{
+        width: 28%;
+        margin-right: 40px;
      
     }
-    #image {
-        float: none;
-        width: 170%;
-        margin-top: 20px;    
-        margin-left: 150px;
-    }
+
     header h1{
         font-size: 1.8em ;
         text-align: right;
-        margin-left: 150px;
+        margin-left: 210px;
     }
-  
-   
+     h3 { 
+         margin-top: -30px;
+     }
+     h4 {
+         margin-top: -40px;
+     }
     nav {
         height: 600px;
     }
@@ -326,29 +313,23 @@ article h2{
 /* End Tablet Styles*/
 
 /* Desktop Styles*/
+@media (min-width: 1024px) {
+    header img {
+        width: 16%;
+        margin-right: 300px;
+        margin-top: -5px;
+    }
+    h2 {
+       margin-bottom: -20px;
 
-header {
+    }
+    h4 {
+        margin-top:-110px ;
+    }
 
-    width: 70%;
-}
-
-#header {
-   margin-top: -470px;
-   margin-right: 300px;
-}
-
-header img{
-   max-width: 25%;
-   height: auto;
-}
-
-}
-#colabimg {
-    width: 20%;
-}
-
-article img{
-    width: 20%;
+    #colabimg {
+        width: 35%;
+    }
    
 }
 
